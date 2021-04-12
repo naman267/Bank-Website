@@ -3,6 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  position: fixed;
+  top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  z-index: 100;
+}
+navbar-light .navbar-nav .nav-link {
+  color: blue;
+}
+.hmnav {
+  position: fixed;
+  top: 0px;
+  color: wheat;
+  text-align: center;
+}
+.headerlink:hover {
+  /* background-color: #ffff00; */
+  text-decoration-color: yellow;
+  color: yellow !important;
+}
 body {
   border: none;
   outline: none;
@@ -52,13 +74,13 @@ html {
 a:hover {
   color: yellowgreen;
 }
-.top-nav {
+/*.top-nav {
   padding: 40px 90px;
   /* display: flex; */
-  /* justify-content: space-between; */
-  text-align: center;
+/* justify-content: space-between; */
+/* text-align: center;
   margin-left: 400px;
-}
+}*/
 .logo h4 a {
   font-family: "Philosopher", sans-serif;
   cursor: pointer;
@@ -107,7 +129,9 @@ a:hover {
 .TSFBANK-right {
   width: 50%;
 }
-
+.TSFBANK {
+  margin-top: 50px;
+}
 .start-btn {
   background-color: #cec3ec;
 }
@@ -151,6 +175,10 @@ a:hover {
 }
 .footer {
   background-color: #3458e9;
+  /* position: fixed; */
+  margin-bottom: 0px;
+  width: 100%;
+  z-index: 1;
 }
 .footer-inner {
   padding: 3%;
@@ -174,6 +202,7 @@ a:hover {
 }
 .Customers-table {
   padding: 20px 30px;
+  margin-top: 50px;
 }
 .Customers-table-inner {
   padding-bottom: 30px;
@@ -183,11 +212,11 @@ a:hover {
   color: #ffffff;
 }
 .d1:nth-child(even) {
-  background-color: #a1f09e;
+  background-color: pink;
   color: rgb(68, 66, 66);
 }
 .d1:nth-child(odd) {
-  background-color: #06dd60;
+  background-color: plum;
   color: rgb(68, 66, 66);
 }
 .view-link {
