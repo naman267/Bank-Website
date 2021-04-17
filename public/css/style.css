@@ -74,6 +74,9 @@ html {
 a:hover {
   color: yellowgreen;
 }
+.form {
+  margin-top: 100px;
+}
 /*.top-nav {
   padding: 40px 90px;
   /* display: flex; */
@@ -109,15 +112,23 @@ a:hover {
   /* text-decoration: underline; */
   color: #6030e2;
 }
+.head {
+  margin: auto;
+  text-align: center;
+  color: #6030e2;
+  margin-bottom: 24px;
+}
 .TSFBANK-inner {
   width: 100%;
   height: 70vh;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 .TSFBANK-left {
   width: 50%;
   padding-top: 5%;
+  margin: auto;
+  text-align: center;
 }
 .TSFBANK-left h2 {
   color: #6030e2;
@@ -128,6 +139,7 @@ a:hover {
 
 .TSFBANK-right {
   width: 50%;
+  margin: auto;
 }
 .TSFBANK {
   margin-top: 50px;
@@ -189,7 +201,8 @@ a:hover {
 }
 .Customers-table h1 {
   text-align: center;
-  color: #ff4c68;
+  color: #222f3e;
+
   font-family: "Oswald", sans-serif;
   padding: 0 5% 5%;
   cursor: pointer;
@@ -224,6 +237,7 @@ a:hover {
   margin-left: 10px;
   color: #ff5c5c;
 }
+
 .view-link:hover {
   color: blue;
   text-decoration: none;
