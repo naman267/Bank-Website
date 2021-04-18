@@ -161,12 +161,14 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 2%;
+  margin: auto;
 }
 .features-inner-one {
+  margin-left: 38%;
   text-align: center;
   width: 30%;
   border: 3px solid black;
-  background-image: -webkit-linear-gradient(69deg, #7fc9fa 50%, #d6f5f2 50%);
+  background-color: #7fc9fa;
   padding: 2%;
 }
 .features-inner-one i {
